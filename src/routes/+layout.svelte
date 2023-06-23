@@ -18,7 +18,7 @@
 <script>
     const nav = [
         {
-            title: 'More info',
+            title: 'Details',
             href: '/information',
             isShow: true
         },

@@ -1,0 +1,1 @@
+<p style="font-size: 1.2rem;">I'm just a 9th grade student. And this optical tube is my school project. And this website's target is increasing popularity of my handmade model.</p>

@@ -2,6 +2,15 @@
     <title>Front page</title>
 </svelte:head>
 
+<script>
+    import tube from "./images/tube.jpg"
+ </script>
+
+<h1 style="text-align: center; margin-bottom: 0">Kepler</h1>
+<div class="info-container" style="padding: 0 90px 30px 90px;">
+    
+    <p>Johannes Kepler was a German astronomer, mathematician, astrologer, natural philosopher and writer on music. He is a key figure in the 17th-century Scientific Revolution, best known for his laws of planetary motion, and his books Astronomia nova, Harmonice Mundi, and Epitome Astronomiae Copernicanae. These works also provided one of the foundations for Newton's theory of universal gravitation.</p>
+</div>
 <div class="container">
     <!-- <div class="info">
         <div class="animate-background">
@@ -12,16 +21,16 @@
             
         </div>
     </div> -->
-    <img src="src\images\20230329_223142.jpg" alt="Handmade model">
+    
+    <img src={tube} alt="Model">
     <div>
         <div class="title-container">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            My own experience
         </div>
     <div class="info-container">   
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dicta voluptas pariatur alias rerum assumenda eum eligendi aperiam. Officiis vel quia fugiat quidem adipisci autem dolorum, exercitationem amet perferendis excepturi.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dicta voluptas pariatur alias rerum assumenda eum eligendi aperiam. Officiis vel quia fugiat quidem adipisci autem dolorum, exercitationem amet perferendis excepturi.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dicta voluptas pariatur alias rerum assumenda eum eligendi aperiam. Officiis vel quia fugiat quidem adipisci autem dolorum, exercitationem amet perferendis excepturi.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dicta voluptas pariatur alias rerum assumenda eum eligendi aperiam. Officiis vel quia fugiat quidem adipisci autem dolorum, exercitationem amet perferendis excepturi.
+        I made this model by myself. I used simple and usual materials. 
+        It's construction includes mainly plumbing pipes, however the optical linces remain the most important part of the optical tube. 
+        And it works!!! The result is really impressive. The tube is not perfect, but I'm glad that I tried to replicate this invantion. You also can find more information on this website.
     </div>
     </div>
 </div>
@@ -33,20 +42,22 @@
         position: relative;
     }
     .info-container {
-        height: 100%;
+        /* height: 100%; */
         width: 100%;
-        padding: 5px 15px;
+        /* padding: 5px 15px; */
+        padding:  0 30px 20px 30px;
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
         text-align: justify;
         align-items: start;
+        font-size: 1.25rem;
     }
     .title-container {
         text-align: center;
-        padding: 25px 0 25px 0;
+        padding: 40px 0 20px 0;
         /* line-height: 1; */
-		font-size: 1.1rem;
+		font-size: 1.5rem;
         font-weight: bold;
     }
     .container {
@@ -98,7 +109,10 @@
         margin-left: 0.50rem;
     }
     img {
-        max-width: 300px;
-        max-height: 300px;
+        width: 200px;
+        height: 300px;
+        /* min-height: 100px; */
+        /* min-width: 100px; */
+        align-items: center;
     }
 </style>

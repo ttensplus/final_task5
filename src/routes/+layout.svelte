@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo">Welcome</a>
+        <a href="/" class="nav-logo">Front page</a>
         <div class="nav-links">
             {#each nav as link}
                 {#if link.isShow}
@@ -18,7 +18,12 @@
 <script>
     const nav = [
         {
-            title: 'About us',
+            title: 'More info',
+            href: '/information',
+            isShow: true
+        },
+        {
+            title: 'About me',
             href: '/about',
             isShow: true
         },

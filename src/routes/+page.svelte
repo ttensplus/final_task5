@@ -7,8 +7,7 @@
  </script>
 
 <h1 style="text-align: center; margin-bottom: 0">Kepler</h1>
-<div class="info-container" style="padding: 0 90px 30px 90px;">
-    
+<div class="info-container" style="padding: 0 7% 5% 7%;">   
     <p>Johannes Kepler was a German astronomer, mathematician, astrologer, natural philosopher and writer on music. He is a key figure in the 17th-century Scientific Revolution, best known for his laws of planetary motion, and his books Astronomia nova, Harmonice Mundi, and Epitome Astronomiae Copernicanae. These works also provided one of the foundations for Newton's theory of universal gravitation.</p>
 </div>
 <div class="container">  
@@ -49,8 +48,7 @@
         top: 0;
 		left: 0;
 		right: 0;
-		margin: 0 80px 0 80px;
-        
+		margin: 0 7% 0 7%;  
     }
     img {
         width: 200px;
@@ -65,5 +63,8 @@
             width: 100%;
             height: auto;
         }
+    }
+    @media screen and (max-width: 500px) {
+
     }
 </style>
